@@ -119,13 +119,13 @@ def image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode('utf-8')
 #과제--------------------------------------------------------------------------------
 # 과제-1:팀 이름 입력(농구/야구/축구/E-Sports 중 적어주세요)
-team = "팀 이름"
+team = "축구 팀"
 
 # 과제-2:본인을 나타내는 사진을 !반드시! 동일 폴더 안에 넣고 아래에 옳은 파일명을 입력해주세요
-photo_path = 'image.jpg'
+photo_path = 'image2.jpg'
 
 # 과제-3 한 줄 이내의 짧은 소개글을 써주세요
-introduction = "자기 소개글!"
+introduction = "안녕하세요! YSAL 5기 축구팀 진영웅입니다! 신입 기수 분들과 풋살 한 번 꼭 해보고 싶습니다. 한 학기 동안 잘 부탁드립니다 ^^"
 # 이후 실행하고
 # 터미널에 입력할 User inputs(이름, 전공)
 name = input("Enter your name: ")
